@@ -12,5 +12,5 @@ app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
 
 
 app.listen(port, () => {
-    console.log(`Server started on port ${port}`);
+    console.log(`Server started on port http://localhost:${port}`);
 });
